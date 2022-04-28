@@ -1,3 +1,8 @@
+
+body{
+    margin-top: 90px;
+}
+
 .navbar{
     box-shadow: 2px 2px 5px #3292a6;
     background: #fff;
@@ -17,14 +22,97 @@
     color: #3292a6;
 }
 #showcase{
+    position: relative;
     background: url('/img/mountains.jpg');
+    min-height: 600px;
 }
 #showcase .primary-overlay{
     background: rgba(50, 146, 156, 0.7);
-    min-height: 800px;
+    min-height: 600px;
     position: ;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+.btn{
+    border-radius: 0;
+}
+#subscribe{
+    background: #252525;
+}
+#subscribe .btn{
+    background: #3292a6;
+}
+#boxes .bg-default{
+    background: #3292a6;
+}
+#boxes .border-default{
+    border-color: #3292a6;
+    border-radius: 0;
+}
+.text-default{
+    color: #3292a6;
+}
+.form-control{
+    border-radius: 0;
+}
+#authors img{
+    margin-top: -60px;
+}
+.rounded-circle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fa{
+    font-size: 25px;
+    color: #3292a6;
+}
+.card{
+    border-radius: 0;
+}
+#authors .card:hover{
+    background: #3292a6;
+    color: #fff;
+}
+.card:hover .fa{
+    color: #fff;
+}
+.info-authors{
+    margin-bottom: 100px;
+}
+#contact{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#contact .form-group{
+    margin-bottom: 15px;
+}
+#contact .form-group .fa-pencil{
+    height: 100%;
+    padding-top: 60px;
+}
+#contact .form-group .btn{
+    width: 100%;
+    background: #3292a6;
+    color: #fff;
+}
+#contact .form-group .form-control{
+    border-radius: 0;
+    font-size: 20px;
+}
+#contact .form-group .input-group-text{
+    border-radius: 0;
+    height: 100%;
+}
+
+#footer-main{
+    background: #3292a6;
+}
+
+@media only screen and (max-width: 576px){
+    #showcase h1{
+        font-size: 4rem;
+    }
 }
